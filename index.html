@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Secuencia de Fibonacci</title>
+  <link rel="stylesheet" href="styless.css" />
+</head>
+<body>
+  <div class="container">
+
+    <h1>SECUENCIA DE FIBONACCI</h1>
+
+    <label for="indicesInput">Ingresa un número</label>
+    <input
+      type="number"
+      id="indicesInput"
+      placeholder="Ejemplo: 6, 22, 100"
+      min="0"
+      autocomplete="off"
+    />
+
+    <button id="calcBtn">Generar secuencia</button>
+
+    <h2>Secuencia Completa:</h2>
+    <div class="results-container">
+      <ul id="fibonacciSequence"></ul>
+    </div>
+  </div>
+
+  <script src="fibonacci.js"></script>
+</body>
+</html>
